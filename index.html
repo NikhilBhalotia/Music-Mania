@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/utility.css">
+    <link rel="favicon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left">
+            
+
+            <div class="home bg-gray rounded p-1">
+                <div class="close">
+
+                    <img src="images/cross.png" alt="">
+                </div>
+                <div class="logo">
+                    <path
+                        d="M13.5 1.515a3 3 0 0 0-3 0L3 5.845a2 2 0 0 0-1 1.732V21a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6h4v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V7.577a2 2 0 0 0-1-1.732l-7.5-4.33z">
+                    </path><img src="images/music.jpg" alt="Spotify">Music Player
+                </div>
+                <ul style="list-style: none;">
+
+                    <li class="home1"><img style="width: 25px;" src="images/home2.png" alt="Home">Home</li>
+                    <li class="search" style="font-weight:100; color: gray;"><img style="width: 18px;" src="images/search2.png"
+                            alt="Search">Search</li>
+                </ul>
+            </div>
+
+
+            <div class="library bg-gray rounded p-1">
+                <div class="lib">
+
+                    <img src="images/library2.png" alt="">
+                    Your Library
+                    <img class="invert plus" src="images/plus (1).png" alt="">
+                </div>
+                <div class="songList">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    
+                </div>
+            </div>
+
+        </div>
+        <div class="right bg-gray rounded">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamburger">
+                        <img src="images/hamburger.png" alt="">
+                    </div>
+                    <span class="leftright">
+
+                        <img style="cursor: pointer;" src="images/arrow-left.svg" alt="">
+                        <img style="cursor: pointer;" src="images/arrow-right.svg" alt="">
+                        </sapn>
+                </div>
+                <div class="button">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h2>Music Playlists</h2>
+                <div class="cardContainer">
+                    
+
+                </div>
+            </div>
+            <div class="kalakaar">
+
+                <h2>Artists</h2>
+                <div class="artists">
+                    <div class="artist">
+                        <img src="images/artist01.jpg" alt="karan Aujala">
+
+                    </div>
+                    <div class="artist">
+                        <img src="images/artisy02.jpg" alt="Diljit">
+                    </div>
+                    <div class="artist">
+                        <img src="images/artist03.jpg" alt="Subh">
+                    </div>
+                    <div class="artist">
+                        <img src="images/artist04.jpg" alt="Parmish Verma">
+                    </div>
+                </div>
+
+            </div>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle"></div>
+                </div>
+
+                <div class="songinfo">
+
+                </div>
+                <div class="songbuttons">
+                    <img id="previous" src="images/previous-Stroke-Rounded.png" alt="">
+                    <img id="play" style="width: 30px;" src="images/play-circle-Stroke-Rounded.png" alt="">
+                    <img id="next" src="images/next-Stroke-Rounded.png" alt="">
+                </div>
+<div class="timevol">
+
+    <div class="songtime">
+        
+    </div>
+    <div class="volume">
+        <img class="invert" style="width: 20px;" src="images/volume-up.png" alt="">
+            <input class="range" type="range" name="volume" id="">
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+    <script defer src="javascript/script.js"></script>
+
+</body>
+
+</html>
